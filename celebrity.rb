@@ -18,3 +18,11 @@ student_names.each do |x|
 end 
 
 puts student_celebrities  
+
+
+student_celebrities.each do |student_name, celeb| 
+   puts "name: #{student_name}"
+   puts "celebrity: #{celeb}"
+ end 
+ 
+
