@@ -23,7 +23,7 @@ puts student_celebrities
 student_celebrities.each do |student_name, celeb, potato| 
    puts "name: #{student_name}"
    puts "celebrity: #{celeb}"
-   puts "potato: ##{potato}"
+   puts "potato: #{potato}"
  end 
  
 
