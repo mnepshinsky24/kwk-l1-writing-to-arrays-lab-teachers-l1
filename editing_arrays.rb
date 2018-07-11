@@ -1,4 +1,3 @@
-
 $rainbow_colors = [
   "yellow",
   "default",
@@ -6,15 +5,19 @@ $rainbow_colors = [
 ]
 
 def change_rainbow_colors
-  $rainbow_colors[0..2] = ["red","light_red", "light_yellow"]
+   $rainbow_colors[0..2]="red","light_red", "light_yellow"
  # Write a solution that corrects the three colors in rainbow_colors, then returns the corrected array
 end
 
 
+
 def add_colors
-  $rainbow_colors[0..2] = ["red","light_red", "light_yellow"]
-$rainbow_colors << "green"
-$rainbow_colors << "blue"
+$rainbow_colors.push("green","blue")
 end
 
-puts add_colors
+
+change_rainbow_colors
+add_colors
+puts $rainbow_colors
+
+
